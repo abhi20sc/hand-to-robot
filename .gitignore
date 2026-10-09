@@ -1,0 +1,12 @@
+# results and raw data stay out of the repo (only media/ is committed)
+results*/
+hand_demos*/
+*.mov
+*.mp4
+*.npz
+*.pt
+__pycache__/
+*.zip
+
+# my tracked hand keypoints are small and are the input to steps 2-4, so keep them
+!data/tracks/*.npz
